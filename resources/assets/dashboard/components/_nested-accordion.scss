@@ -1,0 +1,97 @@
+.nested-accordion {
+  margin-top: 0.5em;
+  cursor: pointer;
+  p {
+    padding: 0 0.5em;
+    color: #095077;
+    a {
+      margin: 0.5em;
+      float: right;
+    }
+  }
+  p.categoryName {
+    font-size: 1.5em;
+  }
+  p.categoryName.selected {
+    background: #095077;
+  }
+  p.domainName {
+    font-size: 1.3em;
+  }
+  p.domainName.selected {
+    background: #c37c6c;
+  }
+  p.courseName {
+    font-size: 1.1em;
+  }
+  p.courseName.selected {
+    background: #757984;
+  }
+  p.selected {
+    color: #fff;
+    a {
+      color: #fff;
+    }
+    .deleteCourseBtn {
+      color: #fff;
+    }
+  }
+  p:before {
+    content: "+";
+    padding-right: 0.25em;
+    color: #becbd2;
+    font-size: 1.5em;
+    font-weight: 500;
+    position: relative;
+    right: 0;
+  }
+  p.selected:before {
+    content: "-";
+  }
+  .branch {
+    line-height: 1.5;
+    padding: 0.5em;
+    color: #768e9d;
+    border: 0.063em solid #47a3da;
+    border-top: none;
+    margin-bottom: 1em;
+  }
+  a {
+    text-decoration: none;
+    color: #47a3da;
+  }
+}
+
+
+.courseRow {
+  margin: 0;
+  padding: 0;
+}
+
+
+.deleteCourseBtn {
+  float: right;
+  margin: 0.4em;
+  color: #47a3da;
+  border: 0;
+  background: none;
+}
+
+.newBtn {
+  color: #fff;
+  margin: 10px;
+}
+.newBtn:hover {
+  color: #fff;
+}
+
+.newCategoryBtn {
+  background: #095077;
+
+}
+.newDomainBtn {
+  background: #c37c6c;
+}
+.newCourseBtn {
+  background: #757984;
+}

@@ -1,0 +1,10 @@
+.sidebar-logo {
+	width: 100%;
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 768px) {
+	.sidebar-logo {
+		max-width: 200px;
+	}
+}

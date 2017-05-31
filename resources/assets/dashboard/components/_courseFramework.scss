@@ -1,0 +1,78 @@
+.courseFramework {
+	margin: 1em 0;
+	list-style-type: disc;
+	ul {
+	    list-style-type: circle;
+	}
+}
+.courseFrameworkUnit {
+	margin: 1em 0;
+}
+
+.courseFrameworkHeading {
+	background-color: #707070;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em 0;
+	button {
+		float: right;
+		color: white;
+		border: 0;
+		background: none;
+		margin: 0 1em;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+		float: right;
+		margin: 0 0 0 1.5em;
+	}
+}
+
+.courseFrameworkSubheading {
+	background-color: #E2E2E2;
+	padding: 1em 2em;
+    color: black;
+    button {
+		float: right;
+		color: black;
+		border: 0;
+		background: none;
+		margin: 0 0.7em;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+		float: right;
+		margin: 0 0.7em;
+	}
+}
+.semester-freamwork{
+	table{
+		width: 100%;
+
+	}
+	th{
+		border-right:1px solid #fff;
+		padding: 1em 2em;
+		background:#dbdbdb;
+		color:black;
+	}
+	td{
+		border-right:1px solid #fff;
+		border-bottom: 1px solid #fff;
+		padding-top: 0.5em;
+		padding-bottom:0.5em;
+		padding-left: 5em;
+		padding-right: 2em;
+		background: #f6f6f6; 
+		color: black;
+	}
+	i{
+		float: right;
+		padding:4px; 
+
+	}
+
+}

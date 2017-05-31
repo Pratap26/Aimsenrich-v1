@@ -1,0 +1,22 @@
+@import 'abstracts/variables';
+@import 'base/global';
+
+@import 'vendors/bootstrap.min';
+@import 'vendors/font-awesome.min';
+
+@import 'components/scheduleItem';
+@import 'components/courseItem';
+@import 'components/courseAccordion';
+@import 'components/courseFramework';
+
+@import 'layouts/header';
+@import 'layouts/footer';
+@import 'layouts/course';
+@import 'layouts/coursesIcons';
+
+@import 'pages/home';
+@import 'pages/login';
+@import 'pages/userProfile';
+@import 'pages/session';
+@import 'pages/lesson_index';
+@import 'pages/lesson_show';

@@ -1,0 +1,16 @@
+@import 'vendors/bootstrap.min';
+@import 'vendors/font-awesome.min';
+@import 'vendors/flat-admin';
+@import 'vendors/summernote';
+
+@import 'abstracts/variables';
+
+@import 'base/dashboard-body';
+
+@import 'components/nested-accordion';
+@import 'components/courseAccordion';
+@import 'components/courseFramework';
+
+@import 'layouts/form';
+
+@import 'layouts/sidebar';

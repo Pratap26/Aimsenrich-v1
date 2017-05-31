@@ -1,0 +1,68 @@
+.course-accordion {
+  margin-top: 0.5em;
+  cursor: pointer; 
+}
+.course-accordion p {
+  padding: 0 0.5em;
+  color: $purple; 
+}
+.course-accordion p a {
+  margin: 0.5em;
+  float: right; 
+}
+.course-accordion p.title {
+  border: 1px solid #DCDCDC;
+  font-size: 1.2em; 
+  padding-bottom: 0.3em;
+  padding-top: 0.3em;
+}
+.course-accordion p.title.selected {
+  background: #fff; 
+}
+.course-accordion p.selected {
+  color: $purple; 
+}
+.course-accordion p:before {
+  content: "+";
+  padding-right: 0.25em;
+  color: #A9A9A9;
+  font-size: 1.2em;
+  position: relative;
+  float: right; 
+}
+.course-accordion .accordion-section p:before {
+content:"";
+color:black;
+}
+.course-accordion p.selected:before {
+  content: "-"; 
+}
+.course-accordion .accordion-section {
+  line-height: 1.5;
+  padding: 0.5em;
+  border-top: none;
+  margin-bottom: 1em; 
+}
+.accordion-section textarea{
+  display:none;
+}
+.titleRow {
+  margin: 0;
+  padding: 0; 
+}
+.course-accordion .accordion-section .panel{
+  border: none;
+  padding: 0;
+  margin: 0;
+  }
+.course-accordion .accordion-section .note-editor.note-frame{
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+ 

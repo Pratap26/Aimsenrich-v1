@@ -1,0 +1,36 @@
+.form-col {
+	width: 95%;
+	margin: 0 auto;
+	padding: 1em;	
+	input[type="submit"], button[type="submit"] {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.form-col > .section-body > form > .form-group {
+    display: flex;
+    justify-content: space-between;
+    label {
+    	width: 30%;
+	    word-wrap: break-word;
+	    height: 50px;
+	    line-height: 50px;
+	    text-align: center;
+	    margin: 1em;
+    }
+    input.form-control {
+    	margin: 1em;
+    	height: 50px;
+    	line-height: 50px;
+    }
+    textarea {
+    	margin: 1em;
+        text-align:justify;
+    	}
+
+}
+.select2{
+        margin:1em;
+        padding:1em;
+    }

@@ -1,0 +1,170 @@
+header {
+	display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10;
+    top: 0px;
+    width: 100%;
+    background: #fff;
+    height: 90px;
+}
+.body-box {
+	margin-top: 90px;
+}
+
+
+.brandStack {
+	width: 100%;
+    max-width: 600px;
+}
+.brandLogo {
+	display: inline-block;
+    width: 100%;
+    max-width: 250px;
+    margin: 1em 0 0 2em;
+    padding: 10px 30px 10px 0;
+    border-right: 1px solid;
+	img {
+		width: 100%;
+	}
+}
+.tagline {
+	display: inline-block;
+    width: 100%;
+    max-width: 250px;
+	margin-left: 30px;
+    font-size: 1.5em;
+}
+
+
+.navStack {
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 100%;
+    max-width: 510px;
+    ul {
+		list-style-type: none;
+		margin-top: 5px;
+	    li {
+	    	display: inline-block;
+	    	padding: 0 1em;
+	    	a {
+	    		text-decoration: none;
+	    		color: inherit;
+	    	}
+	    }
+	}
+
+	.interactBar {
+		display: block;
+		color: #000;
+	}
+	.navigationBar {
+		display: block;
+		background-color: #4f2582;
+		padding: 0.5em;
+		color: #fff;
+	}
+}
+
+.bannerImg {
+	width: 100%;
+}
+
+@media only screen and (max-width : 1085px) {
+	header {
+		height: 125px;
+	}
+	.body-box {
+		margin-top: 125px;
+	}
+	.brandStack {
+		max-width: 300px;
+	}
+	.brandLogo {
+		border-right: 0px;
+		border-bottom: 1px solid;
+		margin: 0 0 0 2em;
+		padding: 10px 0 10px 0;
+	}
+	.tagline {
+		display: block;
+		text-align: center;
+		padding: 10px 0 0 0;
+	}
+	.navStack { 
+		max-width: 600px;
+	    margin-top: 1em;
+	}
+}
+
+
+@media only screen and (max-width : 820px) {
+	header {
+		display: block;
+		justify-content: none;
+		position: inherit;
+	}
+	.brandStack {
+		display: flex;
+    	justify-content: space-between;
+		max-width: 100%;
+		text-align: center;
+		padding: 0.5em 1em;
+	}
+	.brandLogo {
+		border-bottom: 0px;
+		border-right: 1px solid;
+		padding: 1em 30px 0 0;
+		max-width: 100%;
+		width: 60%;
+	}
+	.tagline {
+		display: inline-block;
+		margin-left: 30px;
+		text-align: left;
+		max-width: 100%;
+		width: 39%;
+		padding-top: 1em;
+	}
+
+	.navStack {
+		max-width: 100%;
+	}
+	
+}
+
+
+@media (max-width : 520px) {
+	header {
+		height: 140px;
+	}
+	.body-box {
+		margin-top: 140px;
+	}
+
+	.brandLogo {
+		width: 70%;
+		margin: 0;
+	}
+	.tagline {
+		width: 30%;
+	}
+	.navStack {
+		.navigationBar {
+			padding: 0.2em;
+			ul li {
+				display: block;
+				text-align: center;
+				width: 100%;
+				margin: 1em 0;
+			}
+		}
+	}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}

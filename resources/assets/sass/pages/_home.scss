@@ -1,0 +1,79 @@
+.feature-box {
+	padding: 1em;
+	margin: 5em auto;
+	width: 100%;
+	max-width: 800px;
+	font-family: $pt;
+}
+
+.feature-textCol {
+	max-width: 400px;
+	width: 100%;
+	text-align: justify;
+    text-justify: inter-word;
+    display: inline-block;
+}
+
+.feature-heading {
+	font-size: 2em;
+	padding: 0.5em 0;
+	color: $purple;
+}
+
+.feature-img {
+	display: inline-block;
+	max-width: 340px;
+	width: 100%;
+	margin: 0 1em;
+	vertical-align: top;
+	text-align: center;
+	img {
+		width: 100%;
+	}
+}
+
+/* Schedule */
+.schedule-box {
+	background: #16c1b7;
+	position: relative;
+	padding: 5em 0;
+	text-align: center;
+}
+
+.schedule-label {
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #313131;
+	top: -20px;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	p {
+		color: #fff;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width:830px) {
+	.feature-textCol {
+		max-width: none;
+		margin: 2em 0;
+	}
+	.feature-img {
+		max-width: none;
+		margin: 0;
+		img {
+			max-width: 500px;
+		}
+	}
+	
+}

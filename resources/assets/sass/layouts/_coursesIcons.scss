@@ -1,0 +1,22 @@
+.coursesIcons-box {
+	text-align: center;
+	a {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+.courseIcon {
+	display: inline-block;
+	margin: 2em;
+	width: 100%;
+    max-width: 150px;
+	img {
+		width: 100%;
+		max-width: 150px;
+	}
+	.courseName {
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+}

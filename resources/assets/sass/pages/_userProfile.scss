@@ -1,0 +1,248 @@
+/* section {
+  min-width: 100%;
+  position: relative;
+  width: 100%;
+  padding: 50px 0;
+}
+
+
+.section {
+	background-color:#fff;
+	border-radius:4px;
+	padding: 3px 25px;
+    margin-bottom: 12px;
+}
+
+.section-title h4{
+	color:#000;
+	font-weight: 500;
+}
+#main {
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+ 	background-color: #f7f7f7;
+}
+
+#main.home-default {
+	padding-bottom:0;
+}
+ */
+ 
+.ad-profile {
+	background-color: #fff;
+	overflow: hidden;
+	padding:0;
+}
+
+.user-profile {
+	overflow: hidden;
+	padding: 0 25px;
+}
+
+.user-images {
+	float: left;
+    margin-right: 30px;
+    margin-top: 30px;
+    border: 1px solid #fcfcfc;
+}
+
+
+.ad-profile .user {
+	float: left;
+}
+
+.ad-profile .user h2 {
+	font-weight: 300;
+	color: #2a2a2a;
+	margin-top: 30px;
+}
+
+.ad-profile .user h2 a {
+	font-weight: 700;
+	color: #00a651;
+}
+
+.ad-profile .user h5 {
+	color: #9fa4a4;
+	font-size: 16px;
+}
+
+.ad-profile .my-ads,
+.ad-profile .favorites {
+    float: left;
+    padding: 30px 40px;
+    text-align: center;
+    border-left: 1px solid #f5f5f5;
+}
+
+.ad-profile .my3-ads {
+	 padding: 30px 55px;
+}
+
+.ad-profile .favorites-user small {
+	display:block;
+	font-size: 16px;
+	color: #000;
+	line-height: 0;
+}
+
+.ad-profile .favorites-user a {
+	font-size: 48px;
+	color: #00a651;
+	display:block;
+}
+
+.ad-profile .favorites-user small:hover {
+	color: #00a651;
+}
+
+.ad-profile .user-menu {
+   list-style-type: none;
+	border-top: 1px solid #f5f5f5;
+}
+
+.ad-profile .user-menu li {
+	padding: 15px 20px;
+	float: left;
+	border-left: 1px solid #f5f5f5;
+}
+
+.ad-profile .user-menu li a {
+	color: #9fa4a4;
+	font-size: 16px;
+}
+
+.ad-profile .user-menu li.active a,
+.ad-profile .user-menu li a:hover {
+	color: #00a651;
+}
+
+.user-pro-section .section {
+	background-color: #fff;
+	padding: 15px 35px;
+}
+
+.user-pro-section select, 
+.user-pro-section input {
+	color: #a0a0a0;
+	font-size: 16px;
+	height:43px;
+}
+
+.user-pro-section .form-group {
+	overflow:hidden;
+	margin-bottom:30px;
+}
+
+.user-pro-section label {
+	float:left;
+	width:25%;
+	font-weight:400;
+	color:#000;
+	font-size:16px;
+}
+ 
+.user-pro-section .form-control {
+	float:right;
+	width:75%;
+}
+
+.user-pro-section .preferences-settings label, 
+.user-pro-section .preferences-settings .form-control {
+	float:none;
+	width:100%;
+	margin:5px 0;
+	font-size:14px;
+}
+
+.user-pro-section h2 {
+	margin-bottom: 30px;
+	font-weight: 300;
+	color: #000;
+	text-transform:capitalize;
+}
+
+.user-pro-section .preferences-settings h2 {
+	margin-bottom:15px;
+}
+
+
+
+
+@media (max-width: 479px) {
+
+	
+	.user-images {
+		width:100%
+	}
+	.ad-profile .user {
+		width:100%;	
+	}
+	.ad-profile {
+		position:relative;
+	}
+	.ad-profile .user-menu li {
+		padding: 10px 14px;
+	}
+
+	
+
+}
+
+@media (max-width: 767px) {
+	.user-images {
+		margin-top:20px;
+		margin-right:20px;
+		width:20%
+	}
+	.ad-profile .user {
+		width:75%;
+	}
+	.favorites-user {
+		float: right;
+		padding-bottom:20px;
+	}
+	.ad-profile .my-ads, .ad-profile .favorites {
+		padding:0 20px;
+		border-left:0;
+	}
+	.ad-profile .favorites-user a {
+		font-size:30px;
+	}
+	.ad-profile .favorites-user small{
+		font-size:13px;
+	}
+	.ad-profile .user-menu li {
+		border: 1px solid #f5f5f5;
+	}
+	.ad-profile .user-menu li a {
+		font-size:14px;
+	}
+	.ad-profile .user h5 {
+		font-size:14px;
+	}
+	.user-profile {
+		margin-bottom:15px;
+	}
+	.ad-profile .user-menu li {
+		padding: 12px 19px;
+	}
+
+	.user-pro-section label{
+		font-size:14px;
+	}
+	.user-pro-section .form-control{
+		width:70%;
+	}
+	
+	.user-account {
+		padding:30px 30px 40px;
+	}
+	.user-account  h2{
+		margin-bottom:35px;
+	}
+
+	section {
+		padding:30px 0;
+	}	
+}

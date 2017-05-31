@@ -1,0 +1,91 @@
+.document-panel{
+   margin-top:3.5em;
+   .panel-heading{
+      color: $purple;
+      font-weight:700;
+   }
+   img{
+      width: 70px;
+      height: 70px;
+      margin: 0.2em;
+
+   }
+   a{
+      display:inline-block;
+   }
+   .refer-link{
+      margin-top: 1em;
+   }
+   .panel-body{
+      height: 440px;
+      overflow: auto;
+   }
+}
+.panel-section{
+   width: 100%;
+   .titleRow{
+      color: $purple;
+      font-weight:700;
+
+   }
+.accordion-section > .course-accordion >.accordion-section{
+      max-height: 450px;
+      overflow: auto;
+      }
+   input[type=text]{
+      width: 90%;
+      display: inline;
+      margin-left: 1em;
+   }
+   .btn{
+      margin-left: 1em;
+   }
+   label{
+      display: block;
+      margin-left: 1em;
+   }
+}
+
+.next-prev{
+   text-align: center;
+   a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0.5em;
+    border-radius:5px;
+   }
+   a:hover {
+    background-color:#4CAF50 ;
+    color:white;
+   }  
+   .previous {
+      background-color:#ddd;
+      color: black;
+   }
+   .next {
+    background-color:#ddd;
+    color: black;
+   }
+}
+.feedback-control{
+  display: inline-flex;
+  width: 100%;
+  label{
+    width: 30%;
+    text-align: center;
+    margin: 1em;
+  }
+  textarea{
+     display: inherit;
+     width: 60%;
+     margin-bottom: 1em;
+  }
+  input[type=radio]{
+      margin: 1em;
+   }
+   label1{
+    margin-top: 0.6em;
+   }
+}
+

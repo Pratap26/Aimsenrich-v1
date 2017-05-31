@@ -1,0 +1,181 @@
+.courseMetaPage {
+	width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.courseList-box {
+	width: 25%;
+    display: inline-block;
+}
+.coursesList-headline {
+	color: $purple;
+	font-size: 2em;
+	text-align: center;
+	font-family: $pt;
+}
+
+.courseList {
+	padding: 1em 0 1em 1em;
+    list-style: none;
+    background-color: $yellowgreen;
+    margin: 0;
+    a {
+    	text-decoration: none;
+    	color: #000;
+    	:hover {
+    		background-color: #efefef;
+    	}
+    }
+    li {
+    	padding: 1em 2em;
+    }
+}
+
+.currentCourse {
+	background-color: #fff;
+}
+
+.courseType {
+	border-top: 1px solid #000;
+	font-weight: bold;
+}
+
+.callbackForm-box {
+	background: $purple;
+	text-align: center;
+	padding: 1em 0;
+	p {
+		font-size: 1.5em;
+	    font-weight: bold;
+	    color: #fff;
+	}
+	input {
+		display: block;
+		width: 100%;
+		max-width: 70%;
+		margin: 0.5em auto;
+		padding: 1em;
+	}
+	input[type="submit"] {
+		max-width: 40%;
+		color: #fff;
+		background-color: #444;
+		border: none;
+		font-weight: bold;
+	}
+}
+
+
+
+/* Course Meta Data */
+.courseMetaData-box {
+	width: 75%;
+    padding: 3.5em 1em 1em 1em;
+}
+
+.branchSection {
+	margin: 0;
+	border-bottom: 2px solid #eee;
+}
+.knowMore {
+	text-align: right;
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+}
+
+
+.courseMetaData-domainTitle {
+	font-weight: bold;
+	font-size: 1.4em;
+	color: $purple;	
+	border-left: 1px solid $purple;
+	padding-left: 1em;
+}
+.courseMetaData-courseTitle {
+	font-weight: bold;
+	font-size: 1.2em;
+	color: $purple;	
+	margin: 1em 0;
+}
+
+.courseMetaData-description {
+}
+
+.courseMetaData-subheading {
+	margin: 2em 0;
+	font-weight: bold;
+}
+
+#accordion .panel-default>.panel-heading {
+    background-color: #fff;
+    border: 0.01em solid #cac7c7;
+    border-width: 0.25px;
+}
+
+.accordion {
+	a {
+		text-decoration: none;
+	}
+	.panel-head {
+	    color: $purple;
+        font-size: 1em;
+	}
+	.panel-default {
+	    border: none;
+	    .panel-heading {
+		    background-color: #fff;
+		    border: 0.1em solid #ddd;
+		}
+	}
+	.panel-body > .panel-ul {
+		list-style-type: square;
+	    color: $purple;
+	    font-size: 1.1em;
+	    .panel-p {
+	    	color: #000;
+	    }
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	.courseMetaPage {
+		max-width: 100%;
+		display: block;
+	}
+	.courseList-box {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.courseList {
+		display: block;
+		width: 100%;
+		li {
+		    padding: 1em;
+		    display: inline-block;
+		    width: 180px;
+		    height: 60px;
+		    vertical-align: top;
+		    text-align: center;
+		}
+	}
+	.callbackForm-box {
+		display: none;
+	}
+	.courseMetaData-box {
+		margin: 0 auto;
+	    text-align: center;
+	    width: 100%;
+	    p {
+	    	text-align: justify;
+	    }
+	}
+
+}
